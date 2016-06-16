@@ -14,4 +14,6 @@ rm -rf akismet
 rm -rf hello.php
 cd ..
 echo "Cambiar permisos directorios y archivos..."
-
+find . -type f -exec chmod 644 {} \; 
+find . -type d -exec chmod 755 {} \;
+echo "Cambiar permisos de usuarios chown -R user:user /home/user/public_html"
