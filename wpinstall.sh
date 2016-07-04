@@ -13,9 +13,6 @@ cd plugins
 rm -rf akismet
 rm -rf hello.php
 cd ..
-echo "Acabar der mover al directorio principal"
-mv wpinstallssh-master/* ../
-rm -rf wpinstallssh-master.zip
 echo "Cambiar permisos directorios y archivos..."
 find . -type f -exec chmod 644 {} \; 
 find . -type d -exec chmod 755 {} \;
