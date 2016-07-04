@@ -12,7 +12,8 @@ cd ..
 cd plugins
 rm -rf akismet
 rm -rf hello.php
-cd ..
+cd ../
+cd ../
 echo "Cambiar permisos directorios y archivos..."
 find . -type f -exec chmod 644 {} \; 
 find . -type d -exec chmod 755 {} \;
