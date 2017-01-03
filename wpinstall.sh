@@ -8,12 +8,14 @@ cd wp-content/themes
 rm -rf twentyfifteen
 rm -rf twentyfourteen
 rm -rf twentysixteen
+rm -rf twentyseventeen
 cd ..
 cd plugins
 rm -rf akismet
 rm -rf hello.php
 cd ../
 cd ../
+cp -r wp-config-sample.php wp-config.php
 echo "Cambiar permisos directorios y archivos..."
 find . -type f -exec chmod 644 {} \; 
 find . -type d -exec chmod 755 {} \;
